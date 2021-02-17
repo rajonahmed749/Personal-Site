@@ -1,8 +1,2 @@
-let days= new Date();
-console.log(days);
-
-const times= document.getElementById('times');
- let newTime= document.createElement('h3');
- newTime.innerText= days;
- times.appendChild(newTime);
-  
+var myModal = new bootstrap.Modal(document.getElementById('myModal'), options);
+console.log(myModal);

@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog | Travel Mafia</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <!-- custom css file  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Travel Mafia</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Select Continent
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                            <li><a class="dropdown-item" href="#">Asia </a></li>
+                            <li><a class="dropdown-item" href="#">Europe</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Latin America</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- blog section -->
+
+    <div class="container mt-5">
+        <div class="row mt-5">
+            <div class="col-lg-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/blog 1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Find your own happiness</h5>
+                        <p class="card-text">Nature can relief from your anxiety , depression and any pressure of
+                            anything. Nature never hurt you any situation .</p>
+                    </div>
+                    <div class="card-body">
+                        <a href="#" class="card-link" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Read bit
+                            more</a>
+
+                        <!-- first blog description-->
+                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia alias id
+                                        libero culpa aliquid delectus voluptas sequi recusandae quibusdam blanditiis in
+                                        aperiam doloremque similique dolores, est facilis reprehenderit perspiciatis
+                                        animi quo tenetur maxime pariatur voluptatem illum laborum. Quam assumenda
+                                        tempore tenetur mollitia quis nam dolorem officiis, minima, saepe sapiente
+                                        impedit.
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis dolore quod
+                                        reprehenderit suscipit similique maiores omnis ipsum ullam distinctio a
+                                        accusantium rem fugiat, officiis voluptate et ipsa labore provident, quas
+                                        veritatis sapiente ducimus in earum! Deleniti molestias, soluta eligendi unde
+                                        porro cupiditate amet laborum sapiente nostrum autem quod ratione sunt.
+                                        Obcaecati esse non praesentium accusamus. Veritatis, laborum error deserunt
+                                        illum eum asperiores quis vel veniam fuga tenetur autem eius doloremque
+                                        voluptatem quibusdam amet. Non asperiores nostrum ea, maxime delectus velit
+                                        ducimus odit beatae quam error voluptate perspiciatis sit dolore. Quam molestias
+                                        qui minus quas officia! Sint asperiores porro vitae nihil.
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Back</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- second blog  -->
+            <div class="col-lg-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/blog 2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Sea inspire dreams</h5>
+                        <p class="card-text">Sea is heaven gift from lord. whenever you get time to explore yourself you
+                            can go in your local sea beach</p>
+                    </div>
+                    <div class="card-body">
+                        <a href="#" class="card-link " data-bs-toggle="modal"
+                            data-bs-target="#staticBackdropSecond">Read bit
+                            more</a>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="staticBackdropSecond" data-bs-backdrop="static"
+                            data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>this is sennd blog topic ctetur adipisicing elit. Doloremque
+                                            perferendis quidem, aut quaerat vitae ipsam magnam aspernatur numquam fuga
+                                            enim eligendi eum inventore in et iste ipsa nobis sequi. Consequatur
+                                            recusandae cum ex sint at. Consequuntur ea doloremque ex dignissimos. Omnis
+                                            quaerat cupiditate dicta beatae officiis obcaecati nulla, laborum a
+                                            assumenda labore veritatis numquam magni alias asperiores iure, mollitia sed
+                                            doloremque, aliquam corrupti reiciendis recusandae? Ut facilis quibusdam
+                                            exercitationem, nostrum a sint numquam modi vel voluptas. Dolore quidem
+                                            porro atque officia odit velit cumque vitae odio laborum, qui eum vero,
+                                            voluptatibus consequuntur culpa tempore nisi! Dicta, cumque optio.</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Back</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- third blog section -->
+            <div class="col-lg-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/blog 3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Waterfall is beautiful</h5>
+                        <p class="card-text">In earthly gift from lord , waterfall is best best beautiful thing. i think
+                            we must explore this beacuse of mental reliefness from anxiety</p>
+                    </div>
+
+                    <div class="card-body">
+                        <a href="#" class="card-link" data-bs-toggle="modal" data-bs-target="#staticBackdropThird">Read
+                            bit more</a>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="staticBackdropThird" data-bs-backdrop="static"
+                            data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>This is third blog sectiong elit. Doloremque possimus culpa
+                                            perferendis quidem, aut quaerat vitae ipsam magnam aspernatur numquam fuga
+                                            enim eligendi eum inventore in et iste ipsa nobis sequi. Consequatur
+                                            recusandae cum ex sint at. Consequuntur ea doloremque ex dignissimos. Omnis
+                                            quaerat cupiditate dicta beatae officiis obcaecati nulla, laborum a
+                                            assumenda labore veritatis numquam magni alias asperiores iure, mollitia sed
+                                            doloremque, aliquam corrupti reiciendis recusandae? Ut facilis quibusdam
+                                            exercitationem, nostrum a sint numquam modi vel voluptas. Dolore quidem
+                                            porro atque officia odit velit cumque vitae odio laborum, qui eum vero,
+                                            voluptatibus consequuntur culpa tempore nisi! Dicta, cumque optio.</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Back</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- footer section -->
+    <div class="footer mt-5">
+        <p>&copy; Travell Mafia | 2021</p>
+    </div>
+
+
+    <!--  Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
